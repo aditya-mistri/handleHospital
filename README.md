@@ -65,7 +65,7 @@ A full-featured backend system for a healthcare management application, built wi
   - tsconfig.json
   - tsconfig.node.json
   - vite.config.ts
-- project_structure.text
+
 - server
   - .env
   - .gitignore
