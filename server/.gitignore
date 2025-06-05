@@ -24,3 +24,4 @@ logs/
 .idea/
 # Optional coverage directory
 coverage/   
+.env
