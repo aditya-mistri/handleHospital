@@ -1,27 +1,34 @@
-#  complete the git ignore
 # Node.js dependencies
 node_modules/
-# Build output
+
+# Build outputs
 dist/
+build/
+
+# Environment variables
+.env
+.env.*
 
 # Logs
 logs/
-# Environment variables
-.env
+*.log
 
 # Dependency directories
-
-# Optional npm cache directory
 .npm/
-# Optional eslint cache
+.pnpm/
 
+# Cache and temp files
 .eslintcache
-# Optional REPL history
+.cache/
 .repl_history
-# Optional VS Code settings
+
+# Coverage directory
+coverage/
+
+# IDE settings
 .vscode/
-# Optional IntelliJ IDEA settings
 .idea/
-# Optional coverage directory
-coverage/   
-.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
